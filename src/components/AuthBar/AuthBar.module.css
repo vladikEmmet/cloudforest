@@ -1,0 +1,37 @@
+.authbar {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login,
+.signup {
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1em;
+  cursor: pointer;
+  padding: 8px;
+  transition: 0.4s all ease;
+}
+
+.signup {
+  background: transparent;
+  color: #a3a495;
+}
+
+.signup:hover {
+  background: #a3a495;
+  color: #1d312b;
+  padding: 10px;
+}
+
+.login {
+  background: #e1e6e2;
+}
+
+.login:hover {
+  background: #50130f;
+  color: #e1e4dc;
+  padding: 10px;
+}
